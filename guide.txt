@@ -1,0 +1,40 @@
+credentials:
+
+Super User:
+	id:  admin
+	pwd: admin
+
+Department Head User:
+	id:  departmenthead
+	pwd: jikku123
+
+Employee User:
+	id:  employee
+	pwd: jikku123
+
+
+(super user are marked super user and do everything. Department heads are marked as staff and can change their info and the employees info. Employees can only change their own info)
+
+
+links:
+
+listemployee:
+	http://127.0.0.1:8000/listemployee/
+
+addemployee:
+	http://127.0.0.1:8000/addemployee/
+
+editemployee (only 3 employee details):
+	http://127.0.0.1:8000/1/editemployee/
+
+searchemployee:
+	http://127.0.0.1:8000/searchemployee
+
+registration:
+	http://127.0.0.1:8000/dj-rest-auth/registration/
+
+
+login:
+	http://127.0.0.1:8000/api-auth/login/
+
+
